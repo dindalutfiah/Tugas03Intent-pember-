@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/gradientbackground"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BedakActivity">
+
+    <TextView
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="GLOW BEAUTY"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:background="@drawable/background"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="BEDAK"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- BEDAK 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivbedak1"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/bedak1" />
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvnamabedak1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="GOLDN BEIGE_DEWY"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tvreferensibedak1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="240 GOLDN BEIGE_DEWY"
+                        android:textSize="8dp" />
+
+                    <Button
+                        android:id="@+id/btndeskripsibedak1"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="left|right|center"
+                        android:text="Fit Me Matte + Poreless Pressed Powder No. 240 Golden Beige Dewy adalah pilihan sempurna untuk tampilan kulit dewy yang flawless dan alami. Formula bedak padat ini memberikan sentuhan akhir yang tampak mulus tanpa meninggalkan kesan berat di wajah."
+                        android:textSize="8.5dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargabedak1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="Rp. 74.800,00"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <!-- BEDAK 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivbedak2"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/bedak2" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvnamabedak2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="PURE BEIGE_MATTE"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tvreferensibedak2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text=" 235 PURE BEIGE_MATTE"
+                        android:textSize="8dp" />
+
+                    <Button
+                        android:id="@+id/btndeskripsibedak2"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="left|right|center"
+                        android:text="Fit Me Matte + Poreless Pressed Powder No. 235 Pure Beige Matte adalah rahasia untuk tampilan kulit matte yang mulus dan natural. Formula bedak padat ini memberikan sentuhan akhir yang flawless tanpa mengorbankan kenyamanan."
+                        android:textSize="8.5dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargabedak2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="Rp. 79.700,00"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- BEDAK 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivbedak3"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/bedak3" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvnamabedak3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="SUN BEIGE_MATTE"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tvreferensibedak3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="310 SUN BEIGE_MATTE"
+                        android:textSize="8dp" />
+
+                    <Button
+                        android:id="@+id/btndeskripsibedak3"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="left|right|center"
+                        android:text="Fit Me Matte + Poreless Pressed Powder No. 310 Sun Beige Matte adalah rahasia untuk tampilan kulit matte yang flawless dan alami. Formula bedak padat ini memberikan sentuhan akhir yang tampak mulus tanpa meninggalkan kesan berat di wajah."
+                        android:textSize="8.5dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargabedak3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="Rp. 89.500,00"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <!-- BEDAK 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivbedak4"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/bedak4" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvnamabedak4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="BUFF BEIGE_MATTE"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tvreferensibedak4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="130 BUFF BEIGE_MATTE"
+                        android:textSize="8dp" />
+
+                    <Button
+                        android:id="@+id/btndeskripsibedak4"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="left|right|center"
+                        android:text="Fit Me Matte + Poreless Pressed Powder No. 130 Buff Beige Dewy adalah pilihan sempurna untuk tampilan kulit dewy yang flawless dan alami. Formula bedak padat ini memberikan sentuhan akhir yang tampak mulus tanpa meninggalkan kesan berat di wajah."
+                        android:textSize="8.5dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargabedak4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="Rp. 89.500,00"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <!-- BEDAK 5 -->
+            <LinearLayout
+                android:layout_marginBottom="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivbedak5"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/bedak5" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvnamabedak5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="MEDIUM BUFF_DEWY"
+                        android:textSize="13.5dp" />
+
+                    <TextView
+                        android:id="@+id/tvreferensibedak5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="225 MEDIUM BUFF_DEWY"
+                        android:textSize="8dp" />
+
+                    <Button
+                        android:id="@+id/btndeskripsibedak5"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:text="Fit Me Matte + Poreless Pressed Powder No. 225 Medium Beige Matte adalah jawaban untuk tampilan kulit matte yang flawless dan natural. Dengan formula bedak padat yang ringan, memberikan sentuhan akhir yang mulus tanpa memberikan kesan berat di wajah."
+                        android:textSize="8.5dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargabedak5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="Rp. 74.800,00"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

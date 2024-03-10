@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/gradientbackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LipstikActivity">
+
+    <TextView
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="GLOW BEAUTY"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:background="@drawable/background"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="LIPSTIK"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivlipstik1"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/lipstik1" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvnamalipstik1"
+                        android:gravity="center"
+                        android:text="SAUCY"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvreferensilipstik1"
+                        android:gravity="center"
+                        android:text="65 SAUCY"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btndeskripsilipstik1"
+                        android:gravity="left|right|center"
+                        android:text="Vinyl Maybelline No. 65 Saucy adalah lipstik yang menciptakan pesona dan keberanian dengan sentuhan berani. Warna Saucy menggabungkan nuansa merah yang kuat dengan daya tarik yang memikat, memberikan tampilan bibir yang dramatis dan mempesona. Formula vinyl inovatif memberikan kilau yang intens, menambah dimensi pada senyuman Anda dengan sentuhan glossy yang menakjubkan."
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargalipstik1"
+                        android:gravity="center"
+                        android:text="Rp. 96.416,00"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivlipstik2"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/lipstik2" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvnamalipstik2"
+                        android:gravity="center"
+                        android:text="WITTY"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvreferensilipstik2"
+                        android:gravity="center"
+                        android:text="40 WITTY"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btndeskripsilipstik2"
+                        android:gravity="left|right|center"
+                        android:text="Vinyl Maybelline No. 40 Witty adalah lipstik yang menghadirkan kecerdasan dan pesona pada bibir Anda. Warna Witty memberikan sentuhan kemerahan yang lembut, menciptakan tampilan yang elegan dan cerdas. Formula vinyl yang inovatif memberikan kilau yang memesona, memberikan dimensi dan daya tarik ekstra pada senyuman Anda."
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargalipstik2"
+                        android:gravity="center"
+                        android:text="Rp. 96.416,00"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivlipstik3"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/lipstik3" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvnamalipstik3"
+                        android:gravity="center"
+                        android:text="PEACHY"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvreferensilipstik3"
+                        android:gravity="center"
+                        android:text="15 PEACHY"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btndeskripsilipstik3"
+                        android:gravity="left|right|center"
+                        android:text="Vinyl Maybelline No. 15 Peachy adalah lipstik yang memikat dengan sentuhan kelembutan dan kehangatan warna peach. Warna Peachy membawa atmosfer keindahan musim panas ke bibir Anda, menciptakan tampilan yang segar, cerah, dan menyenangkan. Formula vinyl yang inovatif memberikan kilau yang lembut, menambahkan dimensi pada bibir Anda dengan sentuhan glossy yang begitu mempesona."
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargalipstik3"
+                        android:gravity="center"
+                        android:text="Rp. 96.416,00"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivlipstik4"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/lipstik4" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvnamalipstik4"
+                        android:gravity="center"
+                        android:text="UNRIVALED"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvreferensilipstik4"
+                        android:gravity="center"
+                        android:text="30 UNRIVALED"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btndeskripsilipstik4"
+                        android:gravity="left|right|center"
+                        android:text="Vinyl Maybelline No. 30 Unrivaled adalah lipstik yang menciptakan tampilan yang tak tertandingi dan menawan. Warna Unrivaled menggabungkan kemewahan merah dengan sentuhan elegan, memberikan dimensi dan karakter pada bibir Anda. Formula vinyl yang inovatif menciptakan kilau yang intens, menambah keindahan pada senyuman Anda dengan sentuhan glossy yang begitu menakjubkan."
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargalipstik4"
+                        android:gravity="center"
+                        android:text="Rp. 96.416,00"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivlipstik5"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/lipstik5" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvnamalipstik5"
+                        android:gravity="center"
+                        android:text="MISCHIEVOUS"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvreferensilipstik5"
+                        android:gravity="center"
+                        android:text="60 MISCHIEVOUS"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btndeskripsilipstik5"
+                        android:gravity="left|right|center"
+                        android:text="Vinyl Maybelline No. 60 Mischievous adalah lipstik yang mempesona dan penuh keceriaan. Warna Mischievous menawarkan keberanian dan keunikan dengan sentuhan keunggulan yang tak dapat diabaikan. Formula vinyl yang inovatif memberikan kilau yang mengundang, menciptakan tampilan bibir yang cerah dan menawan."
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargalipstik5"
+                        android:gravity="center"
+                        android:text="Rp. 96.416,00"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

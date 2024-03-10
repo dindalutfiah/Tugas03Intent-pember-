@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/gradientbackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SunscreenActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:text="GLOW BEAUTY"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:background="@drawable/background"
+        android:text="SUNSCREEN"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--sunscreen1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:id="@+id/ivsunscreen1"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="true"
+                        android:src="@drawable/sunscreen1"
+                        android:onClick="onImageClick"/>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvsunscreen1"
+                        android:gravity="center"
+                        android:text="LIGHT BISQUE"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvreferensisunscreen1"
+                        android:gravity="center"
+                        android:text="118 LIGHT BISQUE"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:id="@+id/btndeskripsisunscreen1"
+                        android:gravity="left|right|center"
+                        android:text="Fit Me Matte + Poreless Foundation No. 118 Light Bisque adalah pilihan sempurna untuk menciptakan tampilan kulit matte yang lembut dan flawless. Formula inovatifnya memberikan hasil akhir yang tampak alami namun tetap memberikan cakupan penuh untuk menyamarkan pori-pori dan noda kulit."
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--sunscreen 2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivsunscreen2"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/sunscreen2"
+                            android:onClick="onImageClick"/>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvsunscreen2"
+                        android:gravity="center"
+                        android:text="GOLDEN NATURAL"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvreferensisunscreen2"
+                        android:gravity="center"
+                        android:text="235 GOLDEN NATURAL"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:id="@+id/btndeskripsisunscreen2"
+                        android:gravity="left|right|center"
+                        android:text="Fit Me Matte + Poreless Foundation No. 235 Golden Natural adalah jawaban sempurna untuk kulit yang ingin terlihat flawlessly matte dan alami. Dengan formula ringan yang inovatif, foundation ini memberikan hasil akhir yang tampak mulus dan bebas kilap."
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <!--sunscreen3-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivsunscreen3"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/sunscreen3"
+                            android:onClick="onImageClick"/>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvsunscreen3"
+                        android:gravity="center"
+                        android:text="CLASIC IVORY"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvreferensisunscreen3"
+                        android:gravity="center"
+                        android:text="115 CLASIC IVORY"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:id="@+id/btndeskripsisunscreen3"
+                        android:gravity="left|right|center"
+                        android:text="Fit Me Matte + Poreless Foundation No. 115 Classic Ivory adalah pilihan sempurna untuk menciptakan tampilan kulit matte yang lembut dan alami. Dengan formula inovatif, foundation ini memberikan hasil akhir yang tampak flawless tanpa mengorbankan kenyamanan."
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--sunscreen4-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivsunscreen4"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/sunscreen4"
+                            android:onClick="onImageClick"/>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvsunscreen4"
+                        android:gravity="center"
+                        android:text="SOFT TAN"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvreferensisunscreen4"
+                        android:gravity="center"
+                        android:text="326 SOFT TAN"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:id="@+id/btndeskripsisunscreen4"
+                        android:gravity="left|right|center"
+                        android:text="Fit Me Matte + Poreless Foundation No. 326 Soft Tan adalah kunci rahasia untuk tampilan kulit matte yang halus dan natural. Dengan formula inovatif yang ringan, foundation ini memberikan hasil akhir yang flawless tanpa meninggalkan kesan berat di wajah."
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--sunscreen5-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivsunscreen5"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/sunscreen5"
+                            android:onClick="onImageClick"/>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvsunscreen5"
+                        android:gravity="center"
+                        android:text="NATURAL BEIGE"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvreferensisunscreen5"
+                        android:gravity="center"
+                        android:text="220 NATURAL BEIGE"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:id="@+id/btndeskripsisunscreen5"
+                        android:gravity="left|right|center"
+                        android:text="Fit Me Matte + Poreless Foundation No. 220 Natural Beige adalah solusi sempurna untuk tampilan kulit matte yang flawless dan alami. Dengan formula inovatif yang ringan, foundation ini memberikan hasil akhir yang tampak mulus tanpa memberikan kesan berat di wajah."
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
